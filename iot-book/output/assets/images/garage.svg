@@ -1,0 +1,63 @@
+<svg viewBox="0 55 320 160" xmlns="http://www.w3.org/2000/svg">
+  <g transform="scale(-1,1)">
+  <path d="M-110,100l-3.628,0l-24.663,-30.831c-2.755,-3.441,-6.923,-5.446,-11.333,-5.446l-48.499,0c-5.933,0,-11.269,3.612,-13.473,9.122l-10.862,27.666c-6.248,1.62,-10.884,7.245,-10.884,14l0,25.393c0,2.005,1.625,3.628,3.628,3.628l10.883,0c0,12.021,9.745,21.767,21.766,21.767c12.021,0,21.767,-9.746,21.767,-21.767l29.021,0c0,12.021,9.746,21.767,21.767,21.767c12.021,0,21.765,-9.746,21.765,-21.767l10.884,0c2.005,0,3.628,-1.623,3.628,-3.628l0,-18.137c0,-12.022,-9.746,-21.767,-21.767,-21.767zm-87.065,54.415c-6.001,0,-10.882,-4.881,-10.882,-10.883c0,-6.001,4.881,-10.884,10.882,-10.884c6.002,0,10.883,4.883,10.883,10.884c0,6.002,-4.881,10.883,-10.883,10.883zm16.326,-54.415l-26.09,0l8.706,-21.766l17.384,0l0,21.766zm10.882,0l0,-21.766l20.233,0l17.414,21.766l-37.647,0zm45.347,54.415c-6.003,0,-10.884,-4.881,-10.884,-10.883c0,-6.001,4.881,-10.884,10.884,-10.884c6.001,0,10.882,4.883,10.882,10.884c0,6.002,-4.881,10.883,-10.882,10.883z"></path>
+  </g>
+  <polygon points="0,60 10,60 10,100 13,100 13,145 10,145 10,176 0,176" style="fill:lightgrey;stroke:black;stroke-width:1" />
+  <!-- <rect x="0" y="60" width="10" height="106" style="fill: lightgrey; stroke: black;"></rect> -->
+  
+  <text transform="rotate(-90 0 0)" style="font-family: Arial, sans-serif; font-size: 10px;" 
+    x="-140" y="10">Sensor</text>
+  <rect x="10"  y="166" width="20" height="10" style="fill: red; stroke: rgb(0, 0, 0);"></rect>
+  <rect x="30"  y="166" width="30" height="10" style="fill: salmon; stroke: rgb(0, 0, 0);"></rect>
+  <rect x="60" y="166" width="20" height="10" style="fill: lightyellow; stroke: rgb(0, 0, 0);"></rect>
+  <rect x="80" y="166" width="30" height="10" style="fill: lightgreen; stroke: rgb(0, 0, 0);"></rect>
+  <rect x="110" y="166" width="30" height="10" style="fill: lightyellow; stroke: rgb(0, 0, 0);"></rect>
+  <rect x="140" y="166" width="160" height="10" style="fill: Salmon; stroke: rgb(0, 0, 0);"></rect>
+
+
+  <text x="20" y="185" style="font-family: Arial, sans-serif; font-size: 3.2px;"  text-anchor="middle" alignment-baseline="middle">DNGR</text>
+  <line x1="13" y1="185" x2="15" y2="185" stroke="black" stroke-width="1" />
+  <line x1="25" y1="185" x2="28" y2="185" stroke="black" stroke-width="1" />
+  <polygon points="13,182 10,185 13,188" fill="black" />
+  <polygon points="27,182 30,185 27,188" fill="black" />
+
+  <text x="45" y="185" style="font-family: Arial, sans-serif; font-size: 3.2px;"  text-anchor="middle" alignment-baseline="middle">Over</text>
+  <line x1="33" y1="185" x2="40" y2="185" stroke="black" stroke-width="1" />
+  <line x1="50" y1="185" x2="57" y2="185" stroke="black" stroke-width="1" />
+  <polygon points="33,182 30,185 33,188" fill="black" />
+  <polygon points="57,182 60,185 57,188" fill="black" />
+
+
+
+  <g transform="translate(50 0)">
+  <text x="20" y="185" style="font-family: Arial, sans-serif; font-size: 3.2px;"  text-anchor="middle" alignment-baseline="middle">Warn</text>
+  <line x1="13" y1="185" x2="15" y2="185" stroke="black" stroke-width="1" />
+  <line x1="25" y1="185" x2="28" y2="185" stroke="black" stroke-width="1" />
+  <polygon points="13,182 10,185 13,188" fill="black" />
+  <polygon points="27,182 30,185 27,188" fill="black" />
+  </g>
+  <g transform="translate(50 0)">
+  <text x="45" y="185" style="font-family: Arial, sans-serif; font-size: 3.2px;"  text-anchor="middle" alignment-baseline="middle">Good</text>
+  <line x1="33" y1="185" x2="40" y2="185" stroke="black" stroke-width="1" />
+  <line x1="50" y1="185" x2="57" y2="185" stroke="black" stroke-width="1" />
+  <polygon points="33,182 30,185 33,188" fill="black" />
+  <polygon points="57,182 60,185 57,188" fill="black" />
+  </g>
+
+  <g transform="translate(80 0)">
+  <text x="45" y="185" style="font-family: Arial, sans-serif; font-size: 3.2px;"  text-anchor="middle" alignment-baseline="middle">Warn</text>
+  <line x1="33" y1="185" x2="40" y2="185" stroke="black" stroke-width="1" />
+  <line x1="50" y1="185" x2="57" y2="185" stroke="black" stroke-width="1" />
+  <polygon points="33,182 30,185 33,188" fill="black" />
+  <polygon points="57,182 60,185 57,188" fill="black" />
+  </g>
+  <g transform="translate(110 0)">
+  <text x="110" y="185" style="font-family: Arial, sans-serif; font-size: 3.2px;"  text-anchor="middle" alignment-baseline="middle">Over</text>
+  <line x1="33" y1="185" x2="105" y2="185" stroke="black" stroke-width="1" />
+  <line x1="115" y1="185" x2="187" y2="185" stroke="black" stroke-width="1" />
+  <polygon points="33,182 30,185 33,188" fill="black" />
+  <polygon points="187,182 190,185 187,188" fill="black" />
+  </g>  
+  <line x1="15" y1="135" x2="87" y2="125" stroke="black" stroke-width="1" stroke-dasharray="4 1" />
+  <line x1="15" y1="115" x2="87" y2="125" stroke="black" stroke-width="1" stroke-dasharray="4 1" />
+</svg>
