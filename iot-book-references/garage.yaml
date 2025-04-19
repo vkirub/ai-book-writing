@@ -1,0 +1,59 @@
+substitutions:
+  device_name: "garage-parking-assist"
+  ota_pwd: "b6759478739c3b7d432bd38828cda11b"
+
+
+esphome:
+  name: "${device_name}"
+
+esp8266:
+  board: nodemcuv2
+
+# Enable logging
+logger:
+
+# Enable Home Assistant API
+api:
+
+ota:
+  password: "${ota_pwd}"
+
+wifi:
+  ssid: UppukkuChappani
+  password: feededdeed
+
+  # Enable fallback hotspot (captive portal) in case wifi connection fails
+  ap:
+    ssid: "${device_name} Hotspot"
+    password: "8Gq3vhWuP1ot"
+
+captive_portal:
+
+
+sensor:
+  - platform: ultrasonic
+    trigger_pin: D8
+    echo_pin: D4
+    pulse_time: 40us
+    name: "${device_name} distance"
+    id: parking_sensor
+    update_interval: 1s
+    on_value: 
+      then:
+        - logger.log: 
+            format: "Sensor value: %4.5f"
+            args: [ 'id(parking_sensor).state']
+
+light:
+  - platform: neopixelbus
+    id: eight_pixels
+    type: GRB
+    variant: WS2812
+    pin: D2
+    num_leds: 8
+    name: "NeoPixel Light"
+    effects:
+      - addressable_rainbow:
+          name: "Rainbow Fader"
+          speed: 3
+          width: 8
